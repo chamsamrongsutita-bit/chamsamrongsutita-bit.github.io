@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แนะนำตัวเอง</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Mali', cursive;
+      background: #fff0f5;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 400px;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #ffb6c1;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #ff69b4;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 10px 0 20px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: white;
+      background: #ff69b4;
+      padding: 10px 20px;
+      border-radius: 30px;
+      margin: 0 5px;
+      transition: background 0.3s;
+    }
+
+    .socials a:hover {
+      background: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img class="profile-pic" src="https://i.pinimg.com/736x/88/7d/99/887d9974a19c6d93d3cb7d8cd0c5f19a.jpg" alt="รูปโปรไฟล์">
+    <h1>แนะนำตัว🐰</h1>
+    <p> ชื่อ สุธิตา จามสำโรง อุ๋งอิ๋ง</p>
+    <div class="socials">
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="profile-pic" src="https://i.pinimg.com/736x/88/7d/99/887d9974a19c6d93d3cb7d8cd0c5f19a.jpg" alt="รูปโปรไฟล์">
+    <h1>ว/ด/ป เกิด🐰</h1>
+    <p> 11/01/52 อายุ16</p>
+    <div class="socials">
+    </div>
+  </div>
+  
+  <div class="card">
+    <img class="profile-pic" src="https://i.pinimg.com/736x/88/7d/99/887d9974a19c6d93d3cb7d8cd0c5f19a.jpg" alt="รูปโปรไฟล์">
+    <h1>งานอดิเรก🐰</h1>
+    <p> ดูซีรีย์ ดูtiktok</p>
+    <div class="socials">
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="profile-pic" src="https://i.pinimg.com/736x/88/7d/99/887d9974a19c6d93d3cb7d8cd0c5f19a.jpg" alt="รูปโปรไฟล์">
+    <h1>การศึกษา🐰</h1>
+    <p> อนุบาล-ประถมต้น โรงเรียนมารีย์ธงชัย</p>
+    <p> ประถมปลาย-มัธยมปลาย โรงเรียนมารีย์วิทยา</p>
+    <div class="socials">
+    </div>
+
+    <div class="card">
+    <img class="profile-pic" src="https://i.pinimg.com/736x/88/7d/99/887d9974a19c6d93d3cb7d8cd0c5f19a.jpg" alt="รูปโปรไฟล์">
+    <h1>ช่องทางการติดต่อ🐰</h1>
+    <p>lnstagram _uraing</p>
+    <div class="socials">
+    </div>
+  </div>
+  </div>
+</body>
+</html>
